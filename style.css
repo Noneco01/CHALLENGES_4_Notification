@@ -19,12 +19,21 @@ main{
     justify-content: center;
     width: 680px;
     padding: 20px;
+    margin: 50px;
 }
 
 .content-head{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.Notifications{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .num3{
@@ -34,10 +43,20 @@ main{
     width: 30px;
     height: 25px;
     border-radius: 5px;
-    margin-left: -190px;
+    margin-left: 10px;
 }
 
-.box-size{
+.red-dot{
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -9px;
+    left: 7px;
+}
+
+.unread{
     background-color: hsl(210, 60%, 98%);
     display: flex;
     padding: 15px;
